@@ -28,12 +28,15 @@ This is the backend API for **MovieTube**, a full-stack movie web application bu
 
 ### 1. Clone the Repository
 
+
 ```bash
 git clone https://github.com/your-username/springboot-movie-backend.git
 cd springboot-movie-backend
 
-
+```
 ###2. Configure Environment Variables
+
+```bash
 Create a file named .env or use system environment variables:
 
 env
@@ -44,15 +47,17 @@ You can also define them in application.properties:
 properties
 spring.data.mongodb.uri=${MONGODBURI}
 tmdb.api.key=${TMDB_API_KEY}
-
+```
 ###3. Run the App
+```bash
 Using Maven:
 bash
 ./mvnw spring-boot:run
 Or in VS Code/IntelliJ, run the MovietubeApplication class.
 
-
+```
 ###4. API Endpoints
+
 Method	Endpoint	Description
 POST	/api/auth/signup	Create new user
 POST	/api/auth/login	Login & receive JWT token
