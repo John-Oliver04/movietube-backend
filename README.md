@@ -71,9 +71,8 @@ JWT token is returned after login
 Frontend must store it in localStorage and send it via Authorization: Bearer <token> header
 
 📁 Folder Structure
+```
 css
-Copy
-Edit
 src/
  └── main/
      ├── java/dev/virola/
@@ -84,12 +83,15 @@ src/
      │   └── MovietubeApplication.java
      └── resources/
          └── application.properties
+```
 🤝 License
 This project is for educational/demo purposes only. You can adapt it for your portfolio or personal use.
 
+
 ✨ Author
+```
 Created by John Oliver Virola
 📧 [johnolivervirola4@gmail.com]
 🔗 [https://www.linkedin.com/in/john-oliver-virola-309315285/]
 
-
+```
