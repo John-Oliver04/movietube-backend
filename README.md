@@ -58,12 +58,12 @@ Or in VS Code/IntelliJ, run the MovietubeApplication class.
 ```
 ###4. API Endpoints
 ```bash
-Method	Endpoint	Description
-POST	/api/auth/signup	Create new user
-POST	/api/auth/login	Login & receive JWT token
-GET	/api/auth/{username}/library	Get user’s favorites/watchlist
-POST	/api/auth/{username}/favorites	Add movie to favorites
-POST	/api/auth/{username}/watchlist	Add movie to watchlist
+Method	Endpoint	                        Description
+POST	/api/auth/signup	                Create new user
+POST	/api/auth/login	                 Login & receive JWT token
+GET	/api/auth/{username}/library	     Get user’s favorites/watchlist
+POST	/api/auth/{username}/favorites	  Add movie to favorites
+POST	/api/auth/{username}/watchlist	  Add movie to watchlist
 ```
 🔐 Security Notes
 JWT token is returned after login
