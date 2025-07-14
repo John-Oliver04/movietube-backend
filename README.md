@@ -2,6 +2,10 @@
 
 This is the backend API for **MovieTube**, a full-stack movie web application built using **Spring Boot** and **MongoDB**. It handles authentication, user data, favorites, watchlists, and integrates with the TMDB API securely using JWT.
 
+```
+FRONTEND LINK
+https://github.com/John-Oliver04/movietube-frontend
+```
 ---
 
 ## 🚀 Features
